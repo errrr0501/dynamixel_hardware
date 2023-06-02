@@ -14,7 +14,7 @@ First [install ROS 2 Humble on Ubuntu 22.04](http://docs.ros.org/en/humble/Insta
 ```shell
 $ source /opt/ros/humble/setup.bash
 $ mkdir -p ~/ros/humble && cd ~/ros/humble
-$ git clone https://github.com/youtalk/dynamixel_control.git src
+$ git clone https://github.com/errrr0501/dynamixel_hardware.git src
 $ vcs import src < src/dynamixel_control.repos
 $ rosdep install --from-paths src --ignore-src -r -y
 $ colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
